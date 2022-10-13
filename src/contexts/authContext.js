@@ -4,6 +4,7 @@ import { createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 
+
 const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {

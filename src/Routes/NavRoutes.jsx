@@ -25,7 +25,7 @@ const NavRoutes = () => {
   return (
     <ResetScroll>
       <Routes>
-        <Route path="/mockman" element={<Mockman />} />
+        <Route path="/mock" element={<Mockman />} />
         <Route path="/" element={<Home />} />
         <Route path="*" element={<PageNotFound />} />
         <Route path="/products" element={<Products />} />

@@ -1,4 +1,3 @@
-
 import "./AddressModal.css";
 import { useAddress } from "../../contexts/addressContext";
 import { useEffect } from "react";
@@ -45,7 +44,7 @@ export const AddressModal = ({ setShowAddrModal }) => {
   useEffect(() => {
     return () =>
       dispatchAddress({ type: "RESET_FORM", payload: initialUserObj });
-  }, []);
+  },[])
 
   return (
     <div className="address-form-wrapper">

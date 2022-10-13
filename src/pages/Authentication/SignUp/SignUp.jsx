@@ -8,6 +8,10 @@ import { toast } from "react-hot-toast";
 import { useAuth } from "../../../contexts/authContext";
 import { Link } from "react-router-dom";
 
+
+
+
+
 const SignUp = () => {
   const { setIsAuth, setToken, navigate } = useAuth();
 

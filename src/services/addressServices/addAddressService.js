@@ -7,3 +7,5 @@ export const addAddressService = (token, formData) => {
     { headers: { authorization: token } }
   );
 };
+
+console.log(addAddressService.address)
