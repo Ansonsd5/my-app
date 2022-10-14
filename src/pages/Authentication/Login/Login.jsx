@@ -117,13 +117,13 @@ const Login = () => {
                     setLogin({
                       ...login,
                       input: {
-                        email: "adarshbalika@gmail.com",
-                        password: "adarshbalika",
+                        email: "anson11@gmail.com",
+                        password: "anson11",
                       },
                     })
                   }
                 >
-                  Guest Mode
+                  Try Guest Mode
                 </button>
               </form>
             </div>
