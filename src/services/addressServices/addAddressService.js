@@ -8,4 +8,3 @@ export const addAddressService = (token, formData) => {
   );
 };
 
-console.log(addAddressService.address)

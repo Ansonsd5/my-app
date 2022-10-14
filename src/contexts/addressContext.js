@@ -28,9 +28,11 @@ const AddressProvider = ({ children }) => {
       try {
         (async () => {
           const { data, status } = await getAddressService(token);
+        
 
           if (status === 200) {
             dispatchAddress({ type: "GET_ADDRESS", payload: data.address });
+           
           }
         })();
       } catch (err) {
