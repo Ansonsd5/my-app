@@ -60,7 +60,8 @@ export const OrderDetails = () => {
     }
 
     const options = {
-      key: "rzp_test_SP206ka3zuV4SX",
+      // key: "rzp_test_SP206ka3zuV4SX",
+      key : "rzp_test_iJOIr8xNGofKBs",
       amount:
         (discountedCouponPrice
           ? totalPrice - discountedCouponPrice
